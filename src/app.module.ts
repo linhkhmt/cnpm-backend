@@ -10,8 +10,6 @@ import { VehicleModule } from './vehicle/vehicle.module';
 import { RouteModule } from './route/route.module';
 import { RepositoriesModule } from './repositories/repositories.module';
 import { TaskModule } from './task/task.module';
-import { ServicesModule } from './services/services.module';
-import { MiddlewaresModule } from './middlewares/middlewares.module';
 import { AuthModule } from './auth/auth.module';
 
 @Module({
@@ -35,8 +33,6 @@ import { AuthModule } from './auth/auth.module';
     RouteModule,
     RepositoriesModule,
     TaskModule,
-    ServicesModule,
-    MiddlewaresModule,
     AuthModule,
   ],
   controllers: [AppController],
